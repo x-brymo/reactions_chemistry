@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'course/courses_view.dart';
 import 'test.dart';
 
 void main() {
@@ -14,6 +15,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+       //showPerformanceOverlay: true,
+      // debugShowMaterialGrid: true,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -33,7 +37,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  ReactionForm(),
+      home:  CategoriesScreen(),
+      //ReactionForm(),
     );
   }
 }
