@@ -1,0 +1,19 @@
+{
+    "reactions": [
+      {
+        "name": "Water Formation",
+        "description": "Formation of water from hydrogen and oxygen",
+        "reactants": ["H2", "O2"],
+        "products": ["H2O"],
+        "balancedEquation": "2H2 + O2 -> 2H2O"
+      },
+      {
+        "name": "Sodium Chloride Formation",
+        "description": "Formation of sodium chloride from sodium and chlorine",
+        "reactants": ["Na", "Cl2"],
+        "products": ["NaCl"],
+        "balancedEquation": "2Na + Cl2 -> 2NaCl"
+      }
+    ]
+  }
+  
